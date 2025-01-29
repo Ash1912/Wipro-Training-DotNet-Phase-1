@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiproDay3Demo", "..\WiproDa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessSpecifierdemo", "..\AccessSpecifierdemo\AccessSpecifierdemo.csproj", "{33711B84-199B-46B4-8664-9480F4196F62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMethodStaticDemo", "..\ClassMethodStaticDemo\ClassMethodStaticDemo.csproj", "{E99CB055-CBE2-4279-A7AA-AB29FA1A18BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{33711B84-199B-46B4-8664-9480F4196F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33711B84-199B-46B4-8664-9480F4196F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33711B84-199B-46B4-8664-9480F4196F62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99CB055-CBE2-4279-A7AA-AB29FA1A18BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99CB055-CBE2-4279-A7AA-AB29FA1A18BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99CB055-CBE2-4279-A7AA-AB29FA1A18BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99CB055-CBE2-4279-A7AA-AB29FA1A18BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
