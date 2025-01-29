@@ -16,13 +16,18 @@ namespace ClassMethodStaticDemo
         private int Empcount = 0;
 
         //Methods to perform CRUD
-        public void AddEmployee()
+        public void AddEmployee(int EmpId, string EmpName, string Dept, decimal Salary)
         {
-            //emps[Empcount] = new Employee(EmpId, EmpName, Dept, Salary);
+            emps[Empcount] = new Employee(EmpId, EmpName, Dept, Salary);
+            Empcount++;
+            Console.WriteLine("Employee Added Successfully");
         }
         public void ListEmployee()
         {
-
+            for (int i = 0; i < Empcount; i++)
+            {
+                emps[i].Display();
+            }
         }
         public void UpdateEmployee()
         {

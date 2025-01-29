@@ -52,22 +52,51 @@
             Console.WriteLine(result);
 
 
-            Employee[] emp = new Employee[2];
-            for (int i = 0; i < emp.Length; i++)
+            //Employee[] emp = new Employee[2];
+            //for (int i = 0; i < emp.Length; i++)
+            //{
+            //    Console.WriteLine("Enter EmployeeId : ");
+            //    int id = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("Enter EmployeeName : ");
+            //    string name = Console.ReadLine();
+            //    Console.WriteLine("Enter Dept : ");
+            //    string dept = Console.ReadLine();
+            //    Console.WriteLine("Enter Salary : ");
+            //    decimal sal = Convert.ToDecimal(Console.ReadLine());
+            //    emp[i] = new Employee(id, name, dept, sal);
+            //}
+            //for (int i = 0; i < emp.Length; i++)
+            //{
+            //    Console.WriteLine(emp[i].EmpId + " " + emp[i].EmpName);
+            //}
+            Console.WriteLine("Employee Management System");
+            Console.WriteLine("1.AddEmployee\n2.Display\n3.Update\n4.Delete");
+            Console.WriteLine("Enter the choice to perform");
+            string choice = Console.ReadLine();
+            EmployeeCRUDOp employeeCRUDOp = new EmployeeCRUDOp();
+            switch (choice)
             {
-                Console.WriteLine("Enter EmployeeId : ");
-                int id = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Enter EmployeeName : ");
-                string name = Console.ReadLine();
-                Console.WriteLine("Enter Dept : ");
-                string dept = Console.ReadLine();
-                Console.WriteLine("Enter Salary : ");
-                decimal sal = Convert.ToDecimal(Console.ReadLine());
-                emp[i] = new Employee(id, name, dept, sal);
-            }
-            for (int i = 0; i < emp.Length; i++)
-            {
-                Console.WriteLine(emp[i].EmpId + " " + emp[i].EmpName);
+                case "1":
+                    Console.WriteLine("Enter EmployeeId : ");
+                    int id = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter EmployeeName : ");
+                    string name = Console.ReadLine();
+                    Console.WriteLine("Enter Dept : ");
+                    string dept = Console.ReadLine();
+                    Console.WriteLine("Enter Salary : ");
+                    decimal sal = Convert.ToDecimal(Console.ReadLine());
+                    
+                    employeeCRUDOp.AddEmployee(id,name,dept,sal);
+                    break;
+
+                case "2":
+                    employeeCRUDOp.ListEmployee();
+                    break;
+
+                default:
+                    Console.WriteLine("Enter the valid option");
+                    break;
+
             }
         }
     }
