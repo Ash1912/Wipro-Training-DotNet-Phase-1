@@ -1,0 +1,14 @@
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\bin\Debug\net8.0\WiproDay2.exe
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\bin\Debug\net8.0\WiproDay2.deps.json
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\bin\Debug\net8.0\WiproDay2.runtimeconfig.json
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\bin\Debug\net8.0\WiproDay2.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\bin\Debug\net8.0\WiproDay2.pdb
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\WiproDay2.GeneratedMSBuildEditorConfig.editorconfig
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\WiproDay2.AssemblyInfoInputs.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\WiproDay2.AssemblyInfo.cs
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\WiproDay2.csproj.CoreCompileInputs.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\WiproDay2.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\refint\WiproDay2.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\WiproDay2.pdb
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\WiproDay2.genruntimeconfig.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproDay2\obj\Debug\net8.0\ref\WiproDay2.dll

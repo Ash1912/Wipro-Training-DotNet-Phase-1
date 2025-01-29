@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiproDay2", "WiproDay2\WiproDay2.csproj", "{5DD135DC-058C-4081-A05E-B4CD3F4E750B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiproArrayDemoDay2", "WiproArrayDemoDay2\WiproArrayDemoDay2.csproj", "{5385A876-8466-4CE3-B042-52059039F631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiproJaggedArrayDay2", "WiproJaggedArrayDay2\WiproJaggedArrayDay2.csproj", "{F0C3B9BB-8957-4A1E-A14E-21E4BCADEC92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiproMultiDimensionalArrayDay2", "WiproMultiDimensionalArrayDay2\WiproMultiDimensionalArrayDay2.csproj", "{9475BD8E-D467-4ABD-92BD-88190AC73570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiproControlStrucureDay2", "WiproControlStrucureDay2\WiproControlStrucureDay2.csproj", "{B26C5B05-DE66-4282-9088-77AF44E86AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiproClassDemoDay2", "WiproClassDemoDay2\WiproClassDemoDay2.csproj", "{BC843768-FC9F-4978-BAEF-C964CE8E2547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DD135DC-058C-4081-A05E-B4CD3F4E750B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD135DC-058C-4081-A05E-B4CD3F4E750B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD135DC-058C-4081-A05E-B4CD3F4E750B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD135DC-058C-4081-A05E-B4CD3F4E750B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5385A876-8466-4CE3-B042-52059039F631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5385A876-8466-4CE3-B042-52059039F631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5385A876-8466-4CE3-B042-52059039F631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5385A876-8466-4CE3-B042-52059039F631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C3B9BB-8957-4A1E-A14E-21E4BCADEC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C3B9BB-8957-4A1E-A14E-21E4BCADEC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C3B9BB-8957-4A1E-A14E-21E4BCADEC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C3B9BB-8957-4A1E-A14E-21E4BCADEC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9475BD8E-D467-4ABD-92BD-88190AC73570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9475BD8E-D467-4ABD-92BD-88190AC73570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9475BD8E-D467-4ABD-92BD-88190AC73570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9475BD8E-D467-4ABD-92BD-88190AC73570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26C5B05-DE66-4282-9088-77AF44E86AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26C5B05-DE66-4282-9088-77AF44E86AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26C5B05-DE66-4282-9088-77AF44E86AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26C5B05-DE66-4282-9088-77AF44E86AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC843768-FC9F-4978-BAEF-C964CE8E2547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC843768-FC9F-4978-BAEF-C964CE8E2547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC843768-FC9F-4978-BAEF-C964CE8E2547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC843768-FC9F-4978-BAEF-C964CE8E2547}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

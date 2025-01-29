@@ -1,0 +1,14 @@
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\bin\Debug\net8.0\WiproMultiDimensionalArrayDay2.exe
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\bin\Debug\net8.0\WiproMultiDimensionalArrayDay2.deps.json
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\bin\Debug\net8.0\WiproMultiDimensionalArrayDay2.runtimeconfig.json
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\bin\Debug\net8.0\WiproMultiDimensionalArrayDay2.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\bin\Debug\net8.0\WiproMultiDimensionalArrayDay2.pdb
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\WiproMultiDimensionalArrayDay2.GeneratedMSBuildEditorConfig.editorconfig
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\WiproMultiDimensionalArrayDay2.AssemblyInfoInputs.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\WiproMultiDimensionalArrayDay2.AssemblyInfo.cs
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\WiproMultiDimensionalArrayDay2.csproj.CoreCompileInputs.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\WiproMultiDimensionalArrayDay2.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\refint\WiproMultiDimensionalArrayDay2.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\WiproMultiDimensionalArrayDay2.pdb
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\WiproMultiDimensionalArrayDay2.genruntimeconfig.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDay2\WiproMultiDimensionalArrayDay2\obj\Debug\net8.0\ref\WiproMultiDimensionalArrayDay2.dll

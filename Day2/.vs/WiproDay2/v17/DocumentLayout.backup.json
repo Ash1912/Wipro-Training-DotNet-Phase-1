@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC843768-FC9F-4978-BAEF-C964CE8E2547}|WiproClassDemoDay2\\WiproClassDemoDay2.csproj|u:\\btech_kiit\\training\\wipro\\development\\wiproday2\\wiproclassdemoday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC843768-FC9F-4978-BAEF-C964CE8E2547}|WiproClassDemoDay2\\WiproClassDemoDay2.csproj|solutionrelative:wiproclassdemoday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC843768-FC9F-4978-BAEF-C964CE8E2547}|WiproClassDemoDay2\\WiproClassDemoDay2.csproj|u:\\btech_kiit\\training\\wipro\\development\\wiproday2\\wiproclassdemoday2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC843768-FC9F-4978-BAEF-C964CE8E2547}|WiproClassDemoDay2\\WiproClassDemoDay2.csproj|solutionrelative:wiproclassdemoday2\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DD135DC-058C-4081-A05E-B4CD3F4E750B}|WiproDay2\\WiproDay2.csproj|u:\\btech_kiit\\training\\wipro\\development\\wiproday2\\wiproday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DD135DC-058C-4081-A05E-B4CD3F4E750B}|WiproDay2\\WiproDay2.csproj|solutionrelative:wiproday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B26C5B05-DE66-4282-9088-77AF44E86AE2}|WiproControlStrucureDay2\\WiproControlStrucureDay2.csproj|u:\\btech_kiit\\training\\wipro\\development\\wiproday2\\wiprocontrolstrucureday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B26C5B05-DE66-4282-9088-77AF44E86AE2}|WiproControlStrucureDay2\\WiproControlStrucureDay2.csproj|solutionrelative:wiprocontrolstrucureday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9475BD8E-D467-4ABD-92BD-88190AC73570}|WiproMultiDimensionalArrayDay2\\WiproMultiDimensionalArrayDay2.csproj|u:\\btech_kiit\\training\\wipro\\development\\wiproday2\\wipromultidimensionalarrayday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9475BD8E-D467-4ABD-92BD-88190AC73570}|WiproMultiDimensionalArrayDay2\\WiproMultiDimensionalArrayDay2.csproj|solutionrelative:wipromultidimensionalarrayday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0C3B9BB-8957-4A1E-A14E-21E4BCADEC92}|WiproJaggedArrayDay2\\WiproJaggedArrayDay2.csproj|u:\\btech_kiit\\training\\wipro\\development\\wiproday2\\wiprojaggedarrayday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0C3B9BB-8957-4A1E-A14E-21E4BCADEC92}|WiproJaggedArrayDay2\\WiproJaggedArrayDay2.csproj|solutionrelative:wiprojaggedarrayday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5385A876-8466-4CE3-B042-52059039F631}|WiproArrayDemoDay2\\WiproArrayDemoDay2.csproj|u:\\btech_kiit\\training\\wipro\\development\\wiproday2\\wiproarraydemoday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5385A876-8466-4CE3-B042-52059039F631}|WiproArrayDemoDay2\\WiproArrayDemoDay2.csproj|solutionrelative:wiproarraydemoday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproDay2\\Program.cs",
+              "RelativeDocumentMoniker": "WiproDay2\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproDay2\\Program.cs",
+              "RelativeToolTip": "WiproDay2\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA3wB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T03:52:05.054Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproClassDemoDay2\\Employee.cs",
+              "RelativeDocumentMoniker": "WiproClassDemoDay2\\Employee.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproClassDemoDay2\\Employee.cs",
+              "RelativeToolTip": "WiproClassDemoDay2\\Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:04:22.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproClassDemoDay2\\Program.cs",
+              "RelativeDocumentMoniker": "WiproClassDemoDay2\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproClassDemoDay2\\Program.cs",
+              "RelativeToolTip": "WiproClassDemoDay2\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:04:00.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproControlStrucureDay2\\Program.cs",
+              "RelativeDocumentMoniker": "WiproControlStrucureDay2\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproControlStrucureDay2\\Program.cs",
+              "RelativeToolTip": "WiproControlStrucureDay2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:33:23.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproMultiDimensionalArrayDay2\\Program.cs",
+              "RelativeDocumentMoniker": "WiproMultiDimensionalArrayDay2\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproMultiDimensionalArrayDay2\\Program.cs",
+              "RelativeToolTip": "WiproMultiDimensionalArrayDay2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T07:07:12.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproJaggedArrayDay2\\Program.cs",
+              "RelativeDocumentMoniker": "WiproJaggedArrayDay2\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproJaggedArrayDay2\\Program.cs",
+              "RelativeToolTip": "WiproJaggedArrayDay2\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T06:03:15.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproArrayDemoDay2\\Program.cs",
+              "RelativeDocumentMoniker": "WiproArrayDemoDay2\\Program.cs",
+              "ToolTip": "U:\\BTECH_KIIT\\Training\\Wipro\\Development\\WiproDay2\\WiproArrayDemoDay2\\Program.cs",
+              "RelativeToolTip": "WiproArrayDemoDay2\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T04:54:56.456Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
