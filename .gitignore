@@ -1,0 +1,53 @@
+# Ignore Visual Studio temporary files, build results, and sensitive settings
+.vs/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Ignore build output folders
+bin/
+obj/
+out/
+TestResults/
+__pycache__/
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Ignore coverage and debug info
+*.tlog
+*.lastbuildstate
+*.coverage
+*.vspx
+*.vspscc
+*.vssscc
+*.code-workspace
+.vscode/
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore Rider files
+.idea/
+*.iml
+
+# Ignore unnecessary directories
+node_modules/
+dist/
