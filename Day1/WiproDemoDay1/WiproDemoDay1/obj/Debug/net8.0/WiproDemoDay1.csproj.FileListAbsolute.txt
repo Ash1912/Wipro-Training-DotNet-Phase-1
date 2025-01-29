@@ -1,0 +1,14 @@
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\bin\Debug\net8.0\WiproDemoDay1.exe
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\bin\Debug\net8.0\WiproDemoDay1.deps.json
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\bin\Debug\net8.0\WiproDemoDay1.runtimeconfig.json
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\bin\Debug\net8.0\WiproDemoDay1.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\bin\Debug\net8.0\WiproDemoDay1.pdb
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\WiproDemoDay1.GeneratedMSBuildEditorConfig.editorconfig
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\WiproDemoDay1.AssemblyInfoInputs.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\WiproDemoDay1.AssemblyInfo.cs
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\WiproDemoDay1.csproj.CoreCompileInputs.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\WiproDemoDay1.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\refint\WiproDemoDay1.dll
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\WiproDemoDay1.pdb
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\WiproDemoDay1.genruntimeconfig.cache
+U:\BTECH_KIIT\Training\Wipro\Development\WiproDemoDay1\WiproDemoDay1\obj\Debug\net8.0\ref\WiproDemoDay1.dll
