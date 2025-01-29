@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WiproDay3Demo\WiproDay3Demo.csproj" />
+  </ItemGroup>
+
 </Project>
