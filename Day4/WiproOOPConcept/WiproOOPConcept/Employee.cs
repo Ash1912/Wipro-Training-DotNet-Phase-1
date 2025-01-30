@@ -10,11 +10,16 @@ namespace WiproOOPConcept
     {
         public int EmpId { get; set; }
         public string EmpName { get; set; }
-        public string EmpDesc { get; set; }
+
+        public Employee(int EmpId, string EmpName)
+        {
+            this.EmpId = EmpId;
+            this.EmpName = EmpName;
+        }
 
         public virtual void Display()
         {
-            Console.WriteLine(EmpId+ " " +EmpName+ " " +EmpDesc);
+            Console.WriteLine(EmpId+ " " +EmpName);
         }
     }
 }

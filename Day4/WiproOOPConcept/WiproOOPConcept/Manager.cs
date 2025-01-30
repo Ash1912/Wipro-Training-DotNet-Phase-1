@@ -10,9 +10,15 @@ namespace WiproOOPConcept
     {
         public string ManagerName {  get; set; }
 
+        //calling base class constructor
+        public Manager(int eid,string ename,string dname,decimal sal,string ManagerName) :base(eid, ename, dname,sal)
+        {
+            this.ManagerName = ManagerName;
+        }
+
         public override void Display()
         {
-            base.Display();
+            base.Display(); //calling display method of department class
             Console.WriteLine("Manager Name : " +ManagerName);
         }
     }
