@@ -51,3 +51,5 @@ _ReSharper*/
 # Ignore unnecessary directories
 node_modules/
 dist/
+
+*.sln
