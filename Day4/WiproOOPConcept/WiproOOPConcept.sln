@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterSetterMethodDemo", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassDemo", "..\AbstractClassDemo\AbstractClassDemo.csproj", "{2709FF72-BCF0-48D8-B447-C287A2F568FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "..\InterfaceDemo\InterfaceDemo.csproj", "{B381858F-8763-4A29-995F-87EFFCF1C75F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2709FF72-BCF0-48D8-B447-C287A2F568FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2709FF72-BCF0-48D8-B447-C287A2F568FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2709FF72-BCF0-48D8-B447-C287A2F568FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B381858F-8763-4A29-995F-87EFFCF1C75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B381858F-8763-4A29-995F-87EFFCF1C75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B381858F-8763-4A29-995F-87EFFCF1C75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B381858F-8763-4A29-995F-87EFFCF1C75F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
