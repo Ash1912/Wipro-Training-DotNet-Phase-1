@@ -1,0 +1,34 @@
+﻿@page
+@model RazorPagesApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Item List";
+}
+
+<h2 class="text-center mt-4">Item List</h2>
+
+<a class="btn btn-primary mb-3" asp-page="Create">Add New Item</a>
+
+@if (Model.ItemList != null && Model.ItemList.Count > 0)
+{
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ItemList)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="alert alert-warning">No items found. Add one!</p>
+}
