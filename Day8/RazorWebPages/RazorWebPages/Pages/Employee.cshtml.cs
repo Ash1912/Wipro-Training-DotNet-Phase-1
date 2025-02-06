@@ -19,6 +19,7 @@ namespace WiproRazorWebPagesDemo.Pages
             {
                 return Page();
             }
+            ViewData["Message"] = $"Hello {emps.Name}";
             return Page();
         }
     }
