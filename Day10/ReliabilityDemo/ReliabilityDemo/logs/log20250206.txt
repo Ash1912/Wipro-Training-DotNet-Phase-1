@@ -1,0 +1,168 @@
+2025-02-06 16:52:02.399 +05:30 [INF] User profile is available. Using 'C:\Users\KIIT\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 16:52:02.878 +05:30 [INF] Now listening on: https://localhost:7186
+2025-02-06 16:52:02.879 +05:30 [INF] Now listening on: http://localhost:5284
+2025-02-06 16:52:02.920 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 16:52:02.921 +05:30 [INF] Hosting environment: Development
+2025-02-06 16:52:02.922 +05:30 [INF] Content root path: U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo
+2025-02-06 16:52:04.836 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-02-06 16:52:05.038 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 16:52:05.124 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 16:52:05.135 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 16:52:05.138 +05:30 [INF] Index page loaded at "2025-02-06T11:22:05.1384182Z"
+2025-02-06 16:52:05.141 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 16:52:05.149 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 16:52:05.152 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 16:52:05.292 +05:30 [INF] Executed page /Index in 164.2289ms
+2025-02-06 16:52:05.294 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 16:52:05.297 +05:30 [INF] HTTP GET / responded 200 in 280.8353 ms
+2025-02-06 16:52:05.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null text/html; charset=utf-8 478.1126ms
+2025-02-06 16:52:05.455 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-02-06 16:52:05.455 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-02-06 16:52:05.455 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/ReliabilityDemo.styles.css?v=eKXutWqSo0FSK6hALjAhDjjBNIqHIAvddJUPvF0cXXI - null null
+2025-02-06 16:52:05.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-02-06 16:52:05.455 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-02-06 16:52:05.492 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo\wwwroot\css\site.css'
+2025-02-06 16:52:05.492 +05:30 [INF] Sending file. Request path: '/ReliabilityDemo.styles.css'. Physical path: 'U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo\obj\Debug\net8.0\scopedcss\bundle\ReliabilityDemo.styles.css'
+2025-02-06 16:52:05.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 43.7511ms
+2025-02-06 16:52:05.455 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-02-06 16:52:05.510 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/ReliabilityDemo.styles.css?v=eKXutWqSo0FSK6hALjAhDjjBNIqHIAvddJUPvF0cXXI - 200 1133 text/css 54.9693ms
+2025-02-06 16:52:05.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 16:52:05.469 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2025-02-06 16:52:05.545 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-02-06 16:52:05.510 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo\wwwroot\js\site.js'
+2025-02-06 16:52:05.554 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 99.6827ms
+2025-02-06 16:52:05.575 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-02-06 16:52:05.548 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 92.2083ms
+2025-02-06 16:52:05.583 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 127.2682ms
+2025-02-06 16:52:05.567 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 111.4576ms
+2025-02-06 16:52:05.699 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-02-06 16:52:05.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 320.5652ms
+2025-02-06 16:52:05.792 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 337.5937ms
+2025-02-06 16:52:05.851 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/favicon.ico - null null
+2025-02-06 16:52:05.890 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo\wwwroot\favicon.ico'
+2025-02-06 16:52:05.893 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/favicon.ico - 200 5430 image/x-icon 42.1936ms
+2025-02-06 17:26:36.554 +05:30 [INF] User profile is available. Using 'C:\Users\KIIT\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 17:26:36.840 +05:30 [INF] Now listening on: https://localhost:7186
+2025-02-06 17:26:36.841 +05:30 [INF] Now listening on: http://localhost:5284
+2025-02-06 17:26:36.881 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 17:26:36.883 +05:30 [INF] Hosting environment: Development
+2025-02-06 17:26:36.884 +05:30 [INF] Content root path: U:\BTECH_KIIT\Training\Wipro\Development\Day10\ReliabilityDemo\ReliabilityDemo
+2025-02-06 17:26:38.571 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-02-06 17:26:38.768 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:26:38.854 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:26:38.882 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 17:26:38.890 +05:30 [INF] Index page loaded at "2025-02-06T11:56:38.8903907Z"
+2025-02-06 17:26:38.958 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:26:38.966 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:26:38.987 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:26:39.151 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:26:39.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 25.6604ms
+2025-02-06 17:26:39.206 +05:30 [INF] Executed page /Index in 338.8204ms
+2025-02-06 17:26:39.209 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:26:39.217 +05:30 [INF] HTTP GET / responded 200 in 471.8204 ms
+2025-02-06 17:26:39.228 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null text/html; charset=utf-8 662.5812ms
+2025-02-06 17:26:39.242 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-02-06 17:26:39.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-02-06 17:26:39.244 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-02-06 17:26:39.243 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - null null
+2025-02-06 17:26:39.243 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/ReliabilityDemo.styles.css?v=eKXutWqSo0FSK6hALjAhDjjBNIqHIAvddJUPvF0cXXI - null null
+2025-02-06 17:26:39.243 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:26:39.243 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-02-06 17:26:39.270 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-02-06 17:26:39.270 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-02-06 17:26:39.273 +05:30 [INF] The file /js/site.js was not modified
+2025-02-06 17:26:39.276 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-02-06 17:26:39.281 +05:30 [INF] The file /ReliabilityDemo.styles.css was not modified
+2025-02-06 17:26:39.285 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 42.9387ms
+2025-02-06 17:26:39.292 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 49.1731ms
+2025-02-06 17:26:39.298 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 54.747ms
+2025-02-06 17:26:39.300 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 56.1398ms
+2025-02-06 17:26:39.302 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/lib/jquery/dist/jquery.min.js - 304 null text/javascript 59.5436ms
+2025-02-06 17:26:39.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/ReliabilityDemo.styles.css?v=eKXutWqSo0FSK6hALjAhDjjBNIqHIAvddJUPvF0cXXI - 304 null text/css 62.2189ms
+2025-02-06 17:26:39.288 +05:30 [INF] The file /css/site.css was not modified
+2025-02-06 17:26:39.308 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2025-02-06 17:26:39.341 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 98.9173ms
+2025-02-06 17:26:39.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 114.9692ms
+2025-02-06 17:26:40.680 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7186/?handler=Trigger500 - application/x-www-form-urlencoded 182
+2025-02-06 17:26:40.698 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:26:40.703 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:26:40.721 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnPostTrigger500 - ModelState is "Valid"
+2025-02-06 17:26:40.724 +05:30 [INF] Trigger Internal Server Error
+2025-02-06 17:26:40.840 +05:30 [ERR] Error : Attempted to divide by zero.
+2025-02-06 17:26:40.843 +05:30 [INF] Executed handler method OnPostTrigger500, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-06 17:26:40.847 +05:30 [INF] Executing RedirectToPageResult, redirecting to /Error.
+2025-02-06 17:26:40.848 +05:30 [INF] Executed page /Index in 143.5305ms
+2025-02-06 17:26:40.850 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:26:40.851 +05:30 [INF] HTTP POST / responded 302 in 153.1668 ms
+2025-02-06 17:26:40.853 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7186/?handler=Trigger500 - 302 0 null 173.223ms
+2025-02-06 17:26:40.856 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/Error/500 - null null
+2025-02-06 17:26:40.865 +05:30 [INF] Executing endpoint '/Error'
+2025-02-06 17:26:40.879 +05:30 [INF] Route matched with {page = "/Error"}. Executing page /Error
+2025-02-06 17:26:40.887 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-06 17:26:40.889 +05:30 [ERR] A 500 Internal Server Error Occured
+2025-02-06 17:26:40.890 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:26:40.892 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:26:40.893 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:26:40.901 +05:30 [INF] Executed page /Error in 21.1315ms
+2025-02-06 17:26:40.903 +05:30 [INF] Executed endpoint '/Error'
+2025-02-06 17:26:40.904 +05:30 [INF] HTTP GET /Error/500 responded 200 in 41.0997 ms
+2025-02-06 17:26:40.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/Error/500 - 200 null text/html; charset=utf-8 50.4979ms
+2025-02-06 17:26:40.920 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:26:40.920 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2025-02-06 17:26:40.925 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 4.6013ms
+2025-02-06 17:26:40.956 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.4472ms
+2025-02-06 17:26:42.585 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-02-06 17:26:42.592 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:26:42.594 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:26:42.596 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 17:26:42.597 +05:30 [INF] Index page loaded at "2025-02-06T11:56:42.5979491Z"
+2025-02-06 17:26:42.599 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:26:42.601 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:26:42.602 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:26:42.606 +05:30 [INF] Executed page /Index in 10.2025ms
+2025-02-06 17:26:42.607 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:26:42.609 +05:30 [INF] HTTP GET / responded 200 in 17.2141 ms
+2025-02-06 17:26:42.613 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null text/html; charset=utf-8 28.3566ms
+2025-02-06 17:26:42.631 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:26:42.637 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 6.9592ms
+2025-02-06 17:26:43.584 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7186/?handler=Trigger404 - application/x-www-form-urlencoded 182
+2025-02-06 17:26:43.592 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:26:43.595 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:26:43.598 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnPostTrigger404 - ModelState is "Valid"
+2025-02-06 17:26:43.600 +05:30 [WRN] Trigger File Not Found Error
+2025-02-06 17:26:43.601 +05:30 [INF] Executed handler method OnPostTrigger404, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-06 17:26:43.603 +05:30 [INF] Executing RedirectToPageResult, redirecting to /Error.
+2025-02-06 17:26:43.605 +05:30 [INF] Executed page /Index in 6.907ms
+2025-02-06 17:26:43.606 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:26:43.608 +05:30 [INF] HTTP POST / responded 302 in 16.7119 ms
+2025-02-06 17:26:43.612 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7186/?handler=Trigger404 - 302 0 null 28.4403ms
+2025-02-06 17:26:43.617 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/Error/404 - null null
+2025-02-06 17:26:43.623 +05:30 [INF] Executing endpoint '/Error'
+2025-02-06 17:26:43.624 +05:30 [INF] Route matched with {page = "/Error"}. Executing page /Error
+2025-02-06 17:26:43.626 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-06 17:26:43.628 +05:30 [ERR] A 404 Not Found Error Occured
+2025-02-06 17:26:43.630 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:26:43.631 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:26:43.632 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:26:43.635 +05:30 [INF] Executed page /Error in 9.0527ms
+2025-02-06 17:26:43.636 +05:30 [INF] Executed endpoint '/Error'
+2025-02-06 17:26:43.638 +05:30 [INF] HTTP GET /Error/404 responded 200 in 15.5615 ms
+2025-02-06 17:26:43.640 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/Error/404 - 200 null text/html; charset=utf-8 24.1338ms
+2025-02-06 17:26:43.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:26:43.664 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2025-02-06 17:26:43.668 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 4.5289ms
+2025-02-06 17:26:43.692 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.087ms
+2025-02-06 17:26:49.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/ - null null
+2025-02-06 17:26:49.164 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:26:49.167 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:26:49.169 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 17:26:49.171 +05:30 [INF] Index page loaded at "2025-02-06T11:56:49.1711193Z"
+2025-02-06 17:26:49.172 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:26:49.174 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:26:49.175 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:26:49.180 +05:30 [INF] Executed page /Index in 11.2131ms
+2025-02-06 17:26:49.184 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:26:49.185 +05:30 [INF] HTTP GET / responded 200 in 21.4637 ms
+2025-02-06 17:26:49.189 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/ - 200 null text/html; charset=utf-8 31.9737ms
+2025-02-06 17:26:49.208 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:26:49.214 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 7.1369ms
