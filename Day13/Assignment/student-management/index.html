@@ -9,15 +9,15 @@
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Navigation Bar (Fixed) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Spring Flowers School</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="timetable.html">TimeTable</a></li>
@@ -26,12 +26,41 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
-    <div class="container mt-5 text-center">
-        <h1>Welcome to the Student Management System</h1>
-        <p>Manage your school activities efficiently.</p>
-        <a href="timetable.html" class="btn btn-primary">View TimeTable</a>
+    <!-- Main Content Section -->
+    <div class="container mt-5 pt-5 text-center content">
+        <h1 class="display-4 mb-4">Welcome to the Student Management System</h1>
+        <p class="lead mb-4">An efficient way to manage school activities, student progress, and more. Stay organized, stay ahead!</p>
+        <a href="timetable.html" class="btn btn-primary btn-lg mb-4">View TimeTable</a>
+        
+        <!-- Featured Services Section -->
+    <div class="card-deck d-flex justify-content-center">
+        <div class="card shadow-lg">
+            <img src="assets/images/service1.png" class="card-img-top" alt="Service 1">
+            <div class="card-body">
+                <h5 class="card-title">Efficient TimeTable Management</h5>
+                <p class="card-text">Easily organize and access your school timetable, ensuring a smooth flow of activities throughout the day.</p>
+            </div>
+        </div>
+        <div class="card shadow-lg">
+            <img src="assets/images/service2.jpeg" class="card-img-top" alt="Service 2">
+            <div class="card-body">
+                <h5 class="card-title">Student Progress Tracker</h5>
+                <p class="card-text">Monitor and track the academic progress of students, providing feedback and support when needed.</p>
+            </div>
+        </div>
+        <div class="card shadow-lg">
+            <img src="assets/images/service3.jpeg" class="card-img-top" alt="Service 3">
+            <div class="card-body">
+                <h5 class="card-title">Easy Access to Resources</h5>
+                <p class="card-text">Provide students and teachers easy access to school resources such as assignments, study materials, and more.</p>
+            </div>
+        </div>
     </div>
+
+    <!-- Footer (Fixed) -->
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+        <p>&copy; 2025 Spring Flowers School | All Rights Reserved</p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
