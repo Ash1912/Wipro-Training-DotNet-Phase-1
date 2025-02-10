@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
