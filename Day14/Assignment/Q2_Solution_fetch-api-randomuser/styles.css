@@ -1,0 +1,93 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #00aaff, #007bff); /* Updated background */
+    color: white;
+    margin: 0;
+    padding-top: 70px;  /* Add space for the fixed navbar */
+    padding-bottom: 50px; /* Add space for the fixed footer */
+}
+
+/* Navbar Styling */
+.custom-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0056b3;  /* Same background color */
+    padding: 5px 0;  /* Thinner navbar */
+    z-index: 1000;  /* Make sure it's above the content */
+}
+
+/* Navbar Title */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Navbar Button */
+.btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}
+
+/* Card Styling */
+.card {
+    width: 300px;
+    background: white;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    margin-top: 40px; /* Add space between button and card */
+}
+
+.card-img-top {
+    width: 120px;
+    height: 120px;
+    border: 5px solid #007bff;
+    margin-top: -50px;
+}
+
+.table {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Footer Styling */
+.custom-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0056b3;  /* Same background color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;  /* Make sure it's above the content */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Button Styling */
+.btn-light {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+}

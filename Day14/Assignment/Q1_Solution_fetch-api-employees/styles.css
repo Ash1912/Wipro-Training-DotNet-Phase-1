@@ -1,0 +1,97 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3f9cff, #00d4ff);
+    color: #fff;
+    padding-top: 70px; /* Adjusted for fixed navbar height */
+    padding-bottom: 70px; /* Space for fixed footer */
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;  /* Fix navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003366;  /* Dark background color */
+    color: white;
+    padding: 5px 0;  /* Set the padding for a consistent height */
+    z-index: 1000;  /* Ensure navbar stays on top */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Table */
+.table {
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table Header */
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    position: fixed;  /* Fix footer at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003366; /* Darker background color */
+    color: white;
+    padding: 5px 0; /* Reduced padding for the same height as navbar */
+    text-align: center;
+    z-index: 1000; /* Ensure footer stays on top */
+}
+
+.brand {
+    font-weight: bold;
+    color: yellow;
+}
+
+.loading {
+    font-size: 18px;
+}
+
+/* Input and Button Styling */
+.form-select, .form-control {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Styling for the button */
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
