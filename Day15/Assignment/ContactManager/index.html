@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="logo.png" alt="Logo" class="logo">
+            <span class="navbar-title">Contact Manager</span>
+        </div>
+        <ul class="navbar-right">
+            <li><a href="#" onclick="showHome()">Home</a></li>
+            <li><a href="#" onclick="showContactList()">View Contacts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Alert Box -->
+    <div id="alertBox" class="alert-box" style="display: none;"></div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainPage">
+        <header>
+            <h1>Contact Manager</h1>
+            <p>Manage your contacts efficiently</p>
+        </header>
+
+        <!-- Add Contact Form -->
+        <section class="contact-form" id="addContactForm">
+            <h3>Add New Contact</h3>
+            <input type="text" id="contactName" class="input-field" placeholder="Full Name" />
+            <input type="email" id="contactEmail" class="input-field" placeholder="Email Address" />
+            <input type="text" id="contactPhone" class="input-field" placeholder="Phone Number" />
+            <button class="btn" onclick="addNewContact()">Add Contact</button>
+        </section>
+    </div>
+
+     <!-- Contact List -->
+     <section class="contact-list" id="contactListSection" style="display:none;">
+        <h3>All Contacts</h3>
+        <table id="contactTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="contactTableBody">
+                <!-- Contacts will be populated here -->
+            </tbody>
+        </table>
+        <button class="btn" onclick="showAddContactForm()">Add New Contact</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Contact Manager. All rights reserved.</p>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+</html>
