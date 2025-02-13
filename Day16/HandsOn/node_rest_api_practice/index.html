@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            padding: 10px;
+            margin: 5px;
+            width: 90%;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+        .book-list {
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>📚 Book Management System</h1>
+    <div class="container">
+        <h3>Add a Book</h3>
+        <input type="text" id="title" placeholder="Enter book title">
+        <input type="text" id="author" placeholder="Enter author name">
+        <button onclick="addBook()">Add Book</button>
+
+        <h3>✏️ Update a Book</h3>
+        <input type="number" id="update-id" placeholder="Enter book ID">
+        <input type="text" id="update-title" placeholder="Enter new title">
+        <input type="text" id="update-author" placeholder="Enter new author">
+        <button onclick="updateBook()">Update Book</button>
+
+        <h3>📋 Book List</h3>
+        <div id="books" class="book-list"></div>
+    </div>
+
+    <script>
+        const apiBaseUrl = "http://localhost:5000/books";
+
+        // Fetch books on load
+        fetchBooks();
+
+        function fetchBooks() {
+            fetch(apiBaseUrl)
+                .then(response => response.json())
+                .then(data => {
+                    let booksHTML = "";
+                    data.forEach(book => {
+                        booksHTML += `<p><strong>ID: ${book.id} - ${book.title}</strong> by ${book.author} 
+                        <button onclick="deleteBook(${book.id})">❌ Delete</button></p>`;
+                    });
+                    document.getElementById("books").innerHTML = booksHTML;
+                })
+                .catch(err => console.error("Error fetching books:", err));
+        }
+
+        function addBook() {
+            const title = document.getElementById("title").value.trim();
+            const author = document.getElementById("author").value.trim();
+
+            if (!title || !author) {
+                alert("Please enter both title and author.");
+                return;
+            }
+
+            fetch(apiBaseUrl, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ title, author })
+            })
+            .then(response => response.json())
+            .then(() => {
+                fetchBooks();
+                document.getElementById("title").value = "";
+                document.getElementById("author").value = "";
+            })
+            .catch(err => alert("Error adding book: " + err.message));
+        }
+
+        function updateBook() {
+            const id = document.getElementById("update-id").value.trim();
+            const title = document.getElementById("update-title").value.trim();
+            const author = document.getElementById("update-author").value.trim();
+
+            if (!id || !title || !author) {
+                alert("Please enter book ID, title, and author.");
+                return;
+            }
+
+            fetch(`${apiBaseUrl}/${id}`, {
+                method: "PUT",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ title, author })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    return response.json().then(err => { throw new Error(err.message) });
+                }
+                return response.json();
+            })
+            .then(() => {
+                fetchBooks();
+                document.getElementById("update-id").value = "";
+                document.getElementById("update-title").value = "";
+                document.getElementById("update-author").value = "";
+            })
+            .catch(err => alert("Error updating book: " + err.message));
+        }
+
+        function deleteBook(id) {
+            fetch(`${apiBaseUrl}/${id}`, { method: "DELETE" })
+                .then(() => fetchBooks())
+                .catch(err => console.error("Error deleting book:", err));
+        }
+    </script>
+</body>
+</html>
