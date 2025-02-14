@@ -1,0 +1,34 @@
+/* About Section */
+.about-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.about-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+}
+
+.about-banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about-body {
+    padding: 20px;
+}
+
+.about-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    font-size: 1rem;
+    color: #555;
+}
