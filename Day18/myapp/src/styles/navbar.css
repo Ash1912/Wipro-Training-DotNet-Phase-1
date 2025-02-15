@@ -1,0 +1,40 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Heading */
+.navbar .brand {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Nav Links (Rounded Buttons) */
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  background: #f1c40f;
+  color: #1e3c72;
+  padding: 10px 18px;
+  border-radius: 50px; /* Rounded Buttons */
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links a:hover {
+  background: #ffcc00;
+  transform: scale(1.1);
+}

@@ -1,0 +1,45 @@
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .image-card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .image-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .show-images-btn {
+    background: #007bff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .show-images-btn:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+  }
+  
